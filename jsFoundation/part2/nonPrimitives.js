@@ -4,7 +4,7 @@ const username = {
   isLoggedin: true,
 };
 
-username.firstname = "Mr. H";
+username["first name"] = "Mr. H";
 username.lastname = "choudhary"; //adding new key-value pair
 
 // accessintg values from object
@@ -15,7 +15,12 @@ console.log(typeof username);// object
 
 let today = new Date();
 console.log(today.getDate());// current date
-f
+
+//Printing keys & values:
+console.log(Object.keys(student));   // ["name", "marks", "grade"]
+console.log(Object.values(student)); // ["Riya", 95, "A"]
+console.log(Object.entries(student)); // [["name", "Riya"], ["marks", 95], ["grade", "A"]]
+
 // -----------------------------------------------
 
 // Array
